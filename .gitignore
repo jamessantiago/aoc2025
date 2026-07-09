@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.egg
+dist/
+build/
+
+# C# / .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.DotSettings
+
+# C / C++
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Rust
+target/
+Cargo.lock
+
+# Go
+vendor/
+*.test
+*.test.exe
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
