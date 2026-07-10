@@ -64,5 +64,7 @@ pub fn solve() {
         .lines()
         .map(String::from)
         .collect::<Vec<String>>();
-    solve_b(lines);
+    let lines_cpy = lines.clone();
+    solve_a(lines);
+    solve_b(lines_cpy);
 }
