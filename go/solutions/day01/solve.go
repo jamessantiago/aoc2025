@@ -1,4 +1,4 @@
-package solutions
+package day01
 
 import (
 	"fmt"
@@ -7,11 +7,7 @@ import (
 	"strings"
 )
 
-func init() {
-	Register(1, Day01)
-}
-
-func Day01() {
+func Solve() {
 	text, _ := os.ReadFile("inputs/day01.txt")
 	lines := strings.Split(string(text), "\n")
 
